@@ -8,7 +8,7 @@ using WndEF_CodeFirst.Model;
 
 namespace WndEF_CodeFirst.DAL
 {
-    public class FilmDB :DbContext
+    public class FilmDB : DbContext
     {
         public FilmDB()
         {
@@ -21,7 +21,6 @@ namespace WndEF_CodeFirst.DAL
         public DbSet<Film_Oyuncu> Film_Oyuncu { get; set; }
         public DbSet<Kategori> Kategoriler { get; set; }
         public DbSet<Yonetmen> Yonetmenler { get; set; }
-
 
     }
 }

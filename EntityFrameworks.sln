@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WndEf_ModelFirst", "WndEf_M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WndEF_CodeFirst", "WndEF_CodeFirst\WndEF_CodeFirst.csproj", "{BCFBDA4F-D3C3-4B80-BBEC-EBCA64636704}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WndAdpp_GenericDAL", "WndAdpp_GenericDAL\WndAdpp_GenericDAL.csproj", "{A5756AE6-E365-48A6-85BC-3ADC9B0D404B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WndApp_CodeFirst_DBFirst", "WndApp_CodeFirst_DBFirst\WndApp_CodeFirst_DBFirst.csproj", "{0E712C42-8746-49F1-9095-A53440144F4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{BCFBDA4F-D3C3-4B80-BBEC-EBCA64636704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCFBDA4F-D3C3-4B80-BBEC-EBCA64636704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCFBDA4F-D3C3-4B80-BBEC-EBCA64636704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5756AE6-E365-48A6-85BC-3ADC9B0D404B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5756AE6-E365-48A6-85BC-3ADC9B0D404B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5756AE6-E365-48A6-85BC-3ADC9B0D404B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5756AE6-E365-48A6-85BC-3ADC9B0D404B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E712C42-8746-49F1-9095-A53440144F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E712C42-8746-49F1-9095-A53440144F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E712C42-8746-49F1-9095-A53440144F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E712C42-8746-49F1-9095-A53440144F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,17 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WndEF_CodeFirst.Model
+namespace WndAdpp_GenericDAL.Model
 {
+
     [Table("Kategoriler")]
-    public class Kategori
+    public class Kategori: IEntity
     {
         public int KategoriID { get; set; }
         public string KategoriAdi { get; set; }
 
         //lazy loading
-        public  ICollection<Film> Filmler { get; set; }
-        
+        public virtual ICollection<Film> Filmler { get; set; }
+
 
     }
 }

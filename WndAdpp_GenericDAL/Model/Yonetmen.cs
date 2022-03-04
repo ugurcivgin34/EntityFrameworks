@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WndEF_CodeFirst.Model
+namespace WndAdpp_GenericDAL.Model
 {
+
     [Table("Yonetmenler")]
-    public class Yonetmen
+    public class Yonetmen: IEntity
     {
         public int YonetmenID { get; set; }
         public string YonetmenAdi { get; set; }
-
-        public  ICollection<Film> Filmler { get; set; }
+        public virtual ICollection<Film> Filmler { get; set; }
     }
 }
